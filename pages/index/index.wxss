@@ -1,0 +1,100 @@
+/**index.wxss**/
+
+swiper {
+  width: 100%;
+  height: 500rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+
+.listItems {
+  padding-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.listTop {
+  overflow: hidden;
+}
+
+.label {
+  float: left;
+  height: 56rpx;
+  line-height: 56rpx;
+  background: #f3f3f3;
+  border-radius: 0 20rpx 20rpx 0;
+  font-size: 40rpx;
+  color: #999;
+  text-align: center;
+  padding: 0 30rpx;
+}
+
+.listBottom {
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+  width: 72%;
+  padding-left: 3%;
+}
+
+.ys-icon {
+  margin: 10rpx;
+  display: block;
+}
+
+.ys-icon image {
+  width: 28rpx;
+  height: 30rpx;
+}
+
+.ys-icon1 {
+  color: #333;
+}
+
+.ys-icon2, .ys-icon3 {
+  color: #999;
+  font-size: 32rpx;
+}
+
+.listPrice {
+  font-size: 28rpx;
+  color: #999;
+  line-height: 40rpx;
+  margin-left: 50rpx;
+  margin-top: 20rpx;
+}
+
+.price {
+  color: #ff552e;
+}
+
+.oldPrice {
+  display: inline-block;
+  margin-left: 10rpx;
+  color: #aaa;
+  letter-spacing: 0;
+  text-decoration: line-through;
+}
+
+.right {
+  float: right;
+  width: 25%;
+}
+
+.callList {
+  display: block;
+  width: 170rpx;
+  height: 60rpx;
+  background: #fff;
+  border: 2rpx solid #ff552e;
+  border-radius: 44rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  color: #ff552e;
+  margin-top: 20rpx;
+}

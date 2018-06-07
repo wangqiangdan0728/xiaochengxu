@@ -1,0 +1,3 @@
+<!--pages/detail/detail.wxml-->
+<button open-type="contact">进入客服会话</button>
+<button bindtap='copy'>复制内容</button>

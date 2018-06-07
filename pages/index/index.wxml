@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots="true">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="listbox">
+  <view wx:for="{{listItems}}" class="listItems" bindtap='toDetail' data-i='{{index}}'>
+    <view class="listTop">
+      <text class="label">{{item.label}}</text>
+    </view>
+    <view class="listBottom">
+      <view class="left">
+        <block wx:for="{{item.itemIcons}}" wx:for-item="icon" wx:key="icon">
+          <view wx:if="{{icon.text!=null}}" class="{{icon.className}} ys-icon">
+            <image src="{{icon.src}}"></image>
+            {{icon.text}}
+          </view>
+        </block>
+        <view class="listPrice">商机价格
+          <text class="price">￥{{item.price}}</text>
+          <text class="oldPrice">￥{{item.oldPrice}}</text>
+        </view>
+      </view>
+      <view class="right">
+        <button class="callList" catchtap='callList'>联系Ta</button>
+      </view>
+    </view>
+  </view>
+</view>

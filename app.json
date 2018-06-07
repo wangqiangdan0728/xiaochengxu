@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/join1/join1",
+    "pages/join2/join2",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "放心服务",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#FF552E",
+    "list": [
+      {
+        "pagePath": "pages/join1/join1",
+        "text": "商机线索",
+        "iconPath": "images/b.png",
+        "selectedIconPath": "images/b1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的商机",
+        "iconPath": "images/a.png",
+        "selectedIconPath": "images/a1.png"
+      },
+      {
+        "pagePath": "pages/join2/join2",
+        "text": "服务订单",
+        "iconPath": "images/c.png",
+        "selectedIconPath": "images/c1.png"
+      }
+    ]
+  }
+}
